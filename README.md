@@ -18,11 +18,11 @@
 
   <p align="center">
     CRUD API with FastAPI, SQLAlchemy, SQLite and Pydantic
-    <a href="https://github.com/jbozas/todo-challenge"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jbozas/character-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jbozas/todo-challenge">Report Bug</a>
-    <a href="https://github.com/jbozas/todo-challenge">Request Feature</a>
+    <a href="https://github.com/jbozas/character-api">Report Bug</a>
+    <a href="https://github.com/jbozas/character-api">Request Feature</a>
   </p>
 </div>
 
@@ -111,16 +111,16 @@ Consideraciones
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jbozas/todo-challenge.svg?style=for-the-badge
-[contributors-url]: https://github.com/jbozas/todo-challenge/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jbozas/todo-challenge.svg?style=for-the-badge
-[forks-url]: https://github.com/jbozas/todo-challenge/network/members
-[stars-shield]: https://img.shields.io/github/stars/jbozas/todo-challenge.svg?style=for-the-badge
-[stars-url]: https://github.com/jbozas/todo-challenge/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jbozas/todo-challenge.svg?style=for-the-badge
-[issues-url]: https://github.com/jbozas/todo-challenge/issues
-[license-shield]: https://img.shields.io/github/license/jbozas/todo-challenge.svg?style=for-the-badge
-[license-url]: https://github.com/jbozas/todo-challenge/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jbozas/character-api.svg?style=for-the-badge
+[contributors-url]: https://github.com/jbozas/character-api/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jbozas/character-api.svg?style=for-the-badge
+[forks-url]: https://github.com/jbozas/character-api/network/members
+[stars-shield]: https://img.shields.io/github/stars/jbozas/character-api.svg?style=for-the-badge
+[stars-url]: https://github.com/jbozas/character-api/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jbozas/character-api.svg?style=for-the-badge
+[issues-url]: https://github.com/jbozas/character-api/issues
+[license-shield]: https://img.shields.io/github/license/jbozas/character-api.svg?style=for-the-badge
+[license-url]: https://github.com/jbozas/character-api/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jbozas
 [product-screenshot]: images/screenshot.png
