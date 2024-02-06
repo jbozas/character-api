@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "0879c8a8-3b44-4ffa-b4be-caf05829318f",
+		"name": "CharacterAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22320276",
+		"_collection_link": "https://clicoh-team.postman.co/workspace/Team-Workspace~c5cbeb35-1e0b-4a08-8236-2c8a2353415d/collection/22320276-0879c8a8-3b44-4ffa-b4be-caf05829318f?action=share&source=collection_link&creator=22320276"
+	},
+	"item": [
+		{
+			"name": "List characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/character/getAll",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"character",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve character",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/character/get/1123",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"character",
+						"get",
+						"1123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create character",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"1123\",\n    \"name\": \"Julian\",\n    \"height\": 1.82,\n    \"mass\": 67,\n    \"hair_color\": \"Brown\",\n    \"skin_color\": \"White\",\n    \"eye_color\": \"Brown\",\n    \"birth_year\": 1996\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/character/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"character",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a character",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"1123\",\n    \"name\": \"Julian\",\n    \"height\": 1.82,\n    \"mass\": 67,\n    \"hair_color\": \"Brown\",\n    \"skin_color\": \"White\",\n    \"eye_color\": \"Brown\",\n    \"birth_year\": 1996\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/character/delete/1123",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"character",
+						"delete",
+						"1123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HealthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/healthchecker",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"healthchecker"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
